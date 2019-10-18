@@ -509,8 +509,7 @@ room3.locateObject(room3.forki, 100, 590)
 room3.forki.hide()
 room3.forki.onClick = function() {
 	room3.forki.pick()
-	printMessage("보고싶었어! 친구!")
-	playSound("포키목소리.wav")
+	printMessage("보고싶었어 친구!")
 	playYoutube("https://www.youtube.com/watch?v=nKuEUgXa3NQ")
 }
 
